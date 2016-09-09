@@ -4,17 +4,19 @@ body {
 }
 h1 {
 	background-color: rgb(34,68,227);
-	margin-left: 400px;
-	margin-right: 400px;
-	padding-left: auto;
+	height: 75px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
 	padding-right: auto;
 	border-style: solid;
 	border-width: 6px;
 	border-color: black;
 	text-align: center;
 	color: white;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 10px;
+	padding-bottom: auto;
 	letter-spacing: 3px;
 	text-transform: uppercase;
 }
@@ -29,21 +31,28 @@ p.bold {
 	padding-bottom: 10px;
 	padding-left: 18px;
 	padding-right: 16px;
+	width: 180px;
+	height: 50px;
 	float: left;
 	background-color: rgb(34,68,227)
 }
 img.drifter {
-	float: left;
-	margin-right: 10px;
-	margin-left: 10px;
+	width: 400px;
+	height: 300px;
+	float: top;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 .set1 {
+	width: 200px;
+	height: 100px;
 	margin-right: 80px;
 	border-style: solid;
 	border-color: yellow;
 	border-width: 6px;
 	background-color: silver;
 	color: green;
+	float: right;
 }
 a:link {
 	color:blue;
@@ -53,6 +62,7 @@ a:visited {
 }
 a:hover {
 	color:rgb(249,249,2);
+	cursor: crosshair;
 }
 h2.red {
 	background-color: rgb(74,204,236);
@@ -72,10 +82,13 @@ h2.duck {
 	text-align: center;
 	color: rgb(60,197,242);
 	letter-spacing: 2px;
-	margin-left: 800px;
+	margin-left: auto;
 	margin-right: 100px;
+	width: 200px;
+	height: 100px;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	float: right;
 }
 .firstclass {
 	list-style-type: square;
@@ -87,12 +100,15 @@ fieldset.table1 {
 }
 fieldset.set2 {
 	background-image: url(Images/string.jpg);
+	width: 700px;
+	height: 1700px;
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	margin-left: 200px;
-	margin-right: 350px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
 }
 #boldy {
 	font-weight: bolder;
@@ -104,43 +120,62 @@ fieldset.set2 {
 }
 #head1 {
 	float: top;
-	margin-left: 400px;
-	margin-right: 400px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 10px;
 }
 #head2 {
 	float: top;
 	padding: 10px;
-	margin-right: 400px;
-	margin-left: 400px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
 }
 #left {
 	float:bottom;
-	margin-right: 400px;
-	margin-left: 400px;
+	width: 400px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
 }
 #right {
 	float:bottom;
-	margin-right: 400px;
-	margin-left: 400px;
+	width: 400px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
 }
 fieldset.buttonset {
-	margin-right: 400px;
-	margin-left: 400px;
+	float:bottom;
+	padding-top: 15px;
+	width: 400px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
 	background-color: yellow;
 	color: purple;
 }
 .button {
-	margin-left: 400px;
+	display: block;
+	float: bottom;
+	width: 60px;
+	height: 50px;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: auto;
+	padding-right: auto;
 }
 .foot {
-	margin-left: 400px;
-	margin-right: 400px;
-	background-color: white;
+	background-color: black;
+	padding: 10px;
+	width: 50px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
 }
-.footy{
-	background-color: white;
-}
+
 .table1 {
 	background-color: white;
 }
