@@ -6,26 +6,26 @@
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
-	<h2>Mens Finals</h2>
-<fieldset>
-	<ol>
-		<li>Shion Araya</li>
+	<h2 class="red" id="head1">Mens Finals</h2>
+<fieldset class="table1" id="left">
+	<ol class="players">
+		<li id="boldy">Shion Araya</li>
 		<li>Yamata Murata</li>
 		<li>Zach Gormley</li>
 		<li>Gentry Stein</li>
 	</ol>
 </fieldset>
-	<h3>Womens Finals</h3>
-<fieldset>
-	<ol>
-		<li>Beatriz Gallegos Gracia</li>
+	<h2 class="red" id="head2">Womens Finals</h3>
+<fieldset class="table1" id="right">
+	<ol class="players">
+		<li id="bolder">Beatriz Gallegos Gracia</li>
 		<li>Tessa Piccillo</li>
 		<li>Stephanie Haight</li>
 		<li>Chloe Monsonego</li>
 	</ol>
 </fieldset>
 <form name="Favorite Player" action="https://httpbin.org/get" method="get">
-	<fieldset>
+	<fieldset class="buttonset">
 		<div>
 			 <label>Who is your Favorite?:</label>
       <select name="player">
@@ -40,11 +40,11 @@
       </select>
 		</div>
 	</fieldset>
-	<button type="submit">Best!</button>
+	<button type="submit" class="button">Best!</button>
 </form>
-<footer>
+<footer class="foot">
 		<nav>
-			<a href="index.html">Players</a>
+			<a href="index.html">Index</a>
 			<a href="guide.html">Guide</a>
 		</nav>
 	</footer>
