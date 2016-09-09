@@ -1,0 +1,181 @@
+body {
+	font-family: Georgia, serif;
+	background-image: url(images/collection.jpg);
+}
+h1 {
+	background-color: rgb(34,68,227);
+	height: 75px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	padding-right: auto;
+	border-style: solid;
+	border-width: 6px;
+	border-color: black;
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: auto;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+p.bold {
+	color: red;
+	font-size: 20px;
+	border-style: dashed;
+	text-align: center;
+	font-weight: bolder;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	padding-left: 18px;
+	padding-right: 16px;
+	width: 180px;
+	height: 50px;
+	float: left;
+	background-color: rgb(34,68,227)
+}
+img.drifter {
+	width: 400px;
+	height: 300px;
+	float: top;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.set1 {
+	width: 200px;
+	height: 100px;
+	margin-right: 80px;
+	border-style: solid;
+	border-color: yellow;
+	border-width: 6px;
+	background-color: silver;
+	color: green;
+	float: right;
+}
+a:link {
+	color:blue;
+}
+a:visited {
+	color:rgb(225,27,231);
+}
+a:hover {
+	color:rgb(249,249,2);
+	cursor: crosshair;
+}
+h2.red {
+	background-color: rgb(74,204,236);
+	border-style: inset;
+	border-width: 6px;
+	border-color: gray;
+	text-align: center;
+	color: red;
+	letter-spacing: 2px;
+	vertical-align: top;
+}
+h2.duck {
+	background-color: rgb(209,89,10);
+	border-style: groove;
+	border-width: 6px;
+	border-color: purple;
+	text-align: center;
+	color: rgb(60,197,242);
+	letter-spacing: 2px;
+	margin-left: auto;
+	margin-right: 100px;
+	width: 200px;
+	height: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	float: right;
+}
+.firstclass {
+	list-style-type: square;
+}
+fieldset.table1 {
+	background-color: green;
+	margin: 10px;
+	color: rgb(253,245,155);
+}
+fieldset.set2 {
+	background-image: url(Images/string.jpg);
+	width: 700px;
+	height: 1700px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#boldy {
+	font-weight: bolder;
+	text-decoration: underline;
+}
+#bolder {
+	font-weight: bolder;
+	text-decoration: underline;
+}
+#head1 {
+	float: top;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+#head2 {
+	float: top;
+	padding: 10px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#left {
+	float:bottom;
+	width: 400px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#right {
+	float:bottom;
+	width: 400px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+fieldset.buttonset {
+	float:bottom;
+	padding-top: 15px;
+	width: 400px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: yellow;
+	color: purple;
+}
+.button {
+	display: block;
+	float: bottom;
+	width: 60px;
+	height: 50px;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: auto;
+	padding-right: auto;
+}
+.foot {
+	background-color: black;
+	padding: 10px;
+	width: 50px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.table1 {
+	background-color: white;
+}
