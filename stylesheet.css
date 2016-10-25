@@ -33,26 +33,24 @@ p.bold {
 	padding-right: 16px;
 	width: 180px;
 	height: 50px;
-	float: left;
-	background-color: rgb(34,68,227)
+	background-color: rgb(34,68,227);
+	margin: auto;
 }
 img.drifter {
 	width: 400px;
 	height: 300px;
-	float: top;
-	margin-right: 20px;
-	margin-left: 20px;
+	margin: auto;
+	float: right;
 }
 .set1 {
 	width: 200px;
-	height: 100px;
-	margin-right: 80px;
+	height: 200px;
+	margin: auto;
 	border-style: solid;
 	border-color: yellow;
 	border-width: 6px;
 	background-color: silver;
 	color: green;
-	float: right;
 }
 a:link {
 	color:blue;
@@ -74,34 +72,18 @@ h2.red {
 	letter-spacing: 2px;
 	vertical-align: top;
 }
-h2.duck {
-	background-color: rgb(209,89,10);
-	border-style: groove;
-	border-width: 6px;
-	border-color: purple;
-	text-align: center;
-	color: rgb(60,197,242);
-	letter-spacing: 2px;
-	margin-left: auto;
-	margin-right: 100px;
-	width: 200px;
-	height: 100px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	float: right;
-}
 .firstclass {
 	list-style-type: square;
 }
-fieldset.table1 {
+div.table1 {
 	background-color: green;
 	margin: 10px;
 	color: rgb(253,245,155);
 }
-fieldset.set2 {
+div.set2 {
 	background-image: url(Images/string.jpg);
 	width: 700px;
-	height: 1700px;
+	height: 2000px;
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-top: 30px;
